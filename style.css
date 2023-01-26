@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #e6e5e5;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 50px 0px;
+}
+
+.header h1{
+    font-size: 40px;
+}
+
+.header p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.header form{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.header input{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#jogo{
+    margin: auto;
+    width:600px;
+}
+
+#jogo p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.tabuleiro{
+    width:200px;
+    height:150px;
+    font-size: 500%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1 1 auto;
+    float: left;
+}
+
+.casa1,.casa2,.casa3,.casa4,.casa5,.casa6{
+    border-bottom: 2px solid;
+}
+
+.casa1,.casa2,.casa4,.casa5,.casa7,.casa8{
+    border-right: 2px solid;
+}
+
+#reset{
+    clear: both;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#reset button{
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+#reset button:hover{
+    background-color: #9a9999e6;
+    color: #000000;
+    border: 0;
+}
