@@ -76,23 +76,23 @@ function resultado() {
         document.getElementById("mensagem").style.color = "#056717";
         mensagem.textContent = `${jogador1.value} venceu!`;
         fimDeJogo = true;
-        return
+        return;
     } else if (verificaJogo() === 'O') {
         document.getElementById("mensagem").style.color = "#056717";
         mensagem.textContent = `${jogador2.value} venceu!`;
         fimDeJogo = true;
-        return
+        return;
     } else if (verificaJogo() === "Empate") {
         document.getElementById("mensagem").style.color = "#DE0000";
         mensagem.textContent = `O jogo empatou!`;
         fimDeJogo = true;
-        return
+        return;
     } else if (verificaJogo() === "" && turno == "X") {
         mensagem.textContent = `É a vez de ${jogador1.value}`;
-        return
+        return;
     } else if (verificaJogo() === "" && turno == "O") {
         mensagem.textContent = `É a vez de ${jogador2.value}`;
-        return
+        return;
     };
 };
 
