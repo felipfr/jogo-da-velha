@@ -1,5 +1,3 @@
-import '../css/style.css';
-
 let jogo = [['', '', ''], ['', '', ''], ['', '', '']];
 let turno = "X";
 let fimDeJogo = false;
